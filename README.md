@@ -7,13 +7,13 @@
 
 ```
 LODateYearPicker *picker = [[LODateYearPicker alloc]init];
-            [picker showWithYear:_year block:^(BOOL isCancel, NSInteger year) {
-                if (!isCancel) {
-                    
-                }else{
-                
-                }
-            }];
+[picker showWithYear:_year block:^(BOOL isCancel, NSInteger year) {
+    if (!isCancel) {
+        
+    }else{
+    
+    }
+}];
 
 ```
 
